@@ -53,7 +53,7 @@ const LogInPage = () => {
                 <Grid item xs={false} md={2} />
                 <Grid item xs={12} md={8} >
                     <Card className={classes.card}>
-                    <form onSubmit={(e) => { e.preventDefault(); handleLogIn ? handleLogIn(newUser, setErrInfo) : handleSignUp(newUser, setErrInfo); }}>
+                    <form onSubmit={(e) => { e.preventDefault(); hasAccount ? handleLogIn(newUser, setErrInfo) : handleSignUp(newUser, setErrInfo); }}>
 
                         {!hasAccount &&
                             (<><div>

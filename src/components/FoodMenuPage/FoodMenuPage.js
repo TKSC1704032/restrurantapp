@@ -109,6 +109,9 @@ const FoodMenuPage = () => {
                                 <RemoveIcon/>
                             </IconButton>
                         </CardActions>
+                        <Typography variant="h6" component="p">
+                               Total Price for this Item: {price}$
+                            </Typography>
                     </Card>
                 </Grid>
                 <Grid item xs={12} md={6}>

@@ -98,7 +98,6 @@ const App = () => {
     authListener();
     navigator.geolocation.getCurrentPosition((pos) => { setposition({ lat: pos.coords.latitude, lng: pos.coords.longitude }); }, (err) => { setpositionError({ status: true, code: err.code, message: err.message }); });
   }, [position])
-  console.log(position)
   return (
     <>
       <GoogleLoc.Provider value={{ position, positionError }}>

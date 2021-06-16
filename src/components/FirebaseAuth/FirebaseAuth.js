@@ -1,12 +1,12 @@
 import firebase from "firebase";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBN_Za6wO9Sui820hBYi43onB2F14Jg_rs",
-  authDomain: "react-development-ad98d.firebaseapp.com",
-  projectId: "react-development-ad98d",
-  storageBucket: "react-development-ad98d.appspot.com",
-  messagingSenderId: "177841140929",
-  appId: "1:177841140929:web:a36b0e3718a0038a6d9040"
+  apiKey: "AIzaSyAu9G9I00RkDlg-XW2IY-lDo7hLYaHde5g",
+    authDomain: "hotrestrurant.firebaseapp.com",
+    projectId: "hotrestrurant",
+    storageBucket: "hotrestrurant.appspot.com",
+    messagingSenderId: "531324547701",
+    appId: "1:531324547701:web:be4b950808ea47d4b1fe3c"
 };
  const fire= firebase.initializeApp(firebaseConfig);
  export default fire;
